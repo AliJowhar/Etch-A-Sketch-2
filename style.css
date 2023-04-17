@@ -1,0 +1,18 @@
+h1 {
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.mainContainer {
+  width: fit-content;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(16, 31.25px);
+}
+
+.gridElement {
+  background-color: aqua;
+  border: 1px solid black;
+  width: 31.25px;
+  height: 31.25px;
+}
