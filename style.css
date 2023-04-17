@@ -4,6 +4,7 @@ h1 {
 }
 
 .mainContainer {
+  /* margin-left: 90px; */
   width: fit-content;
   border: 1px solid black;
   display: grid;
@@ -11,7 +12,7 @@ h1 {
 }
 
 .gridElement {
-  background-color: aqua;
+  background-color: white;
   border: 1px solid black;
   width: 31.25px;
   height: 31.25px;
