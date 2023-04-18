@@ -2,7 +2,7 @@
 const board = document.querySelector(".board");
 
 document.addEventListener("DOMContentLoaded", function () {
-  createGrid(100);
+  createGrid(16);
 });
 
 const createGrid = function (size) {
@@ -12,7 +12,7 @@ const createGrid = function (size) {
   for (let i = 0; i < size * size; i++) {
     let div = document.createElement("div");
 
-    // div.style.border = "solid";
+    div.style.border = "groove";
     board.appendChild(div);
 
     div.addEventListener("mouseover", function () {
